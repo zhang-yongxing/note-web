@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Note</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+
+        .top-header{
+            margin-top: 20px;
+            /*border: solid 1px red;*/
+            height: 46px;
+        }
+        .top-header-N{
+            /*border: solid 1px red;*/
+            font-size: 30px;
+            /*font-style: italic;*/
+            font-family: monospace;
+            font-weight: 700;
+            /*margin-left: 300px;*/
+            /*padding-top: 4px;*/
+            /*margin-top: 5px;*/
+            /*float: left;*/
+        }
+        .top-header-ote{
+            /*border: solid 1px red;*/
+            font-size: 30px;
+            /*font-style: italic;*/
+            font-family: monospace;
+            font-weight: 700;
+            margin-left: -15px;
+            /*padding-top: 6px;*/
+            /*margin-top: 5px;*/
+            /*float: left;*/
+        }
+        .top-header-later{
+            margin-top: 13px;
+            font-weight: 700;
+        }
+        .top-header-line{
+            width: 100%;
+            height: 1px;
+            border: 1px solid black;
+            margin-top: -10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid top-header">
+        <div class="row">
+            <div class="col-lg-1 col-lg-offset-2">
+                <span class="top-header-N">
+                    N
+                </span>
+                <span class="top-header-ote">
+                    o
+                </span>
+                <span class="top-header-ote">
+                    t
+                </span>
+                <span class="top-header-ote">
+                    e
+                </span>
+            </div>
+            <div class="col-lg-4">
+                <div class=" input-group ">
+                    <input type="text" class="form-control" placeholder="标题搜索">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="button">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-2">
+                <div class="row top-header-later">
+                    <div class="col-lg-4">
+                        <p >广场</p>
+                    </div>
+                    <div  class="col-lg-4">
+                        <p>主页</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p>xiaoming</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="top-header-line"></div>
+    <div>
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li>
+                    <a href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li>
+                    <a href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</body>
+</html>
